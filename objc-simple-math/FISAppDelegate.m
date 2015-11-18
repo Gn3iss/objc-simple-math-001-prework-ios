@@ -53,6 +53,20 @@
     c = a / b;
     NSLog(@"a: %li, b: %li, c: %li", a, b, c);
     
+    NSUInteger u = 1;
+    NSLog(@"u: %lu", u);
+    u = 2 + 3;
+    NSLog(@"u: %lu", u);
+    u = 2 * 3;
+    NSLog(@"u: %lu", u);
+    
+    u = -1;
+    NSLog(@"u: %lu", u);
+    
+    u = 8 - 10;
+    NSLog(@"u: %lu", u);
+    
+    
     // do not alter
     return YES;  //
     ///////////////
