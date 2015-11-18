@@ -36,6 +36,23 @@
     i = -3 / -5;
     NSLog(@"i: %li", i);
     
+    NSInteger a = 0;
+    NSInteger b = 0;
+    NSInteger c = a + b;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    a = 17;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    b = 29;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    c = a + b;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    c = a - b;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    c = a * b;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    c = a / b;
+    NSLog(@"a: %li, b: %li, c: %li", a, b, c);
+    
     // do not alter
     return YES;  //
     ///////////////
